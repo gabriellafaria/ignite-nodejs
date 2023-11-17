@@ -22,3 +22,17 @@ A principal diferença entre as impostações do `fs` para o `fs/promisses` é q
 O método `persist` é o que escreverá o nosso bando de dados em um arquivo físico. 
 
 Para conseguirmos o caminho do banco de dados, podemos usar o `import.meta.url`, assim como o construtor `URL`
+
+Query Parameters: URL Stateful => Filtros, paginação, não-obrigatórios <br />
+Ex.: http://localhost:3333/users?userId=1&name=Diego
+
+Route Parameters: Identificação de recurso <br />
+GET http://localhost:3333/users/1 <br /> 
+DELETE http: //localhost:3333/users/1
+
+Request Body: Envio de informações de um formulário (HTTPs) <br />
+POST http://localhost:3333/users
+
+<h4>Route Regex</h4>
+
+O regex vai ser usado para localizar as informações passadas na rota após o `:`, nosso identificador de que será passado uma informação dinâmica. 
