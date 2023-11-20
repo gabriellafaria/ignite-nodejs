@@ -36,3 +36,7 @@ POST http://localhost:3333/users
 <h4>Route Regex</h4>
 
 O regex vai ser usado para localizar as informações passadas na rota após o `:`, nosso identificador de que será passado uma informação dinâmica. 
+
+O `/g` indica que a identificação é global, e não somente no primeiro match. </br>
+O `?<$1>` reconhece o nome do parametro que indicamos para a rota. </br>
+O `?` no final significa que é um parâmetro opcional. E o `$` é para validar de que o endereço termine após as regras aplicadas antes dele. 
