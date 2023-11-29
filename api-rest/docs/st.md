@@ -23,4 +23,13 @@ Será usado o query builder Knex.js com o sqlite, instale por `npm i knex sqlite
 
 Para o knex reconheça o typescript, criamos o knexfile. 
 
-Para criar as migrations, você inicia com `npx knex migrate:make suaMensagem` 
+Para criar as migrations, você inicia com `npx knex migrate:make suaMensagem`, para executar a migrations, use `migrate:latest`. 
+
+Será usado o arquivo .env para armazenamento de variáveis de ambiente, para usar com o node é necessário instalar o `npm i dotenv`.
+
+
+--- 
+Zod
+
+Será usado o zod para as validações de dados. <br/>
+Para a instalação, usa-se `npm i zod`
