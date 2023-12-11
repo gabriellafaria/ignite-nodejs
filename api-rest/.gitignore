@@ -1,7 +1,16 @@
+# Dependencies
+node_modules
+
+# Database
 db/app.db
 db/test.db
+
+# Environment
 .env
 .env.test
+
+# Build
+build
 
 # Logs
 logs
@@ -11,12 +20,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-.turbo
 
 # Editor directories and files
 .vscode/*
