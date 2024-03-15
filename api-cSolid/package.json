@@ -16,13 +16,13 @@
     "@types/bcryptjs": "2.4.6",
     "@types/node": "20.10.4",
     "eslint": "8.55.0",
-    "prisma": "5.7.0",
+    "prisma": "4.10.1",
     "tsup": "8.0.1",
     "tsx": "4.6.2",
     "typescript": "5.3.3"
   },
   "dependencies": {
-    "@prisma/client": "5.7.0",
+    "@prisma/client": "4.10.1",
     "bcryptjs": "2.4.3",
     "dotenv": "16.3.1",
     "fastify": "4.24.3",
